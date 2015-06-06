@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivityFragment">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:paddingBottom="@dimen/title_bottom_margin"
+            android:text="@string/my_title" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/ButtonType1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:padding="@dimen/abc_button_padding_vertical_material"
+            android:text="@string/media_streamer" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonType1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/super_duo1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonType1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/super_duo2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonType1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/ant_terminator" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/ButtonType1"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/materialize" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/ButtonType2"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/capstone" />
+    </RelativeLayout>
+</ScrollView>
