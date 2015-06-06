@@ -5,13 +5,13 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Title" parent="@android:style/TextAppearance.Medium">
+    <style name="AppTitle" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">24dip</item>
         <item name="android:focusable">false</item>
         <item name="android:clickable">false</item>
     </style>
 
-    <style name="ButtonType1" parent="@android:style/Widget.Button">
+    <style name="ButtonPracticeApp" parent="@android:style/Widget.Button">
         <item name="android:shadowColor">#FF000000</item>
         <item name="android:background">#F08C35</item>
         <item name="android:shadowDx">0</item>
@@ -22,7 +22,7 @@
         <item name="android:clickable">true</item>
     </style>
 
-    <style name="ButtonType2" parent="@android:style/Widget.Button">
+    <style name="ButtonMyApp" parent="@android:style/Widget.Button">
         <item name="android:textColor">#FFFFFFFF</item>
         <item name="android:background">#1e88e5</item>
         <item name="android:shadowColor">#FF000000</item>

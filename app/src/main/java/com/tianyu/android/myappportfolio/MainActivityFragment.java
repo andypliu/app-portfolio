@@ -21,12 +21,12 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        addClickListner((Button) rootView.findViewById(R.id.button), getString(R.string.message));
-        addClickListner((Button) rootView.findViewById(R.id.button1), getString(R.string.message1));
-        addClickListner((Button) rootView.findViewById(R.id.button2), getString(R.string.message2));
-        addClickListner((Button) rootView.findViewById(R.id.button3), getString(R.string.message3));
-        addClickListner((Button) rootView.findViewById(R.id.button4), getString(R.string.message4));
-        addClickListner((Button) rootView.findViewById(R.id.button5), getString(R.string.message5));
+        addClickListner((Button) rootView.findViewById(R.id.button_app1), getString(R.string.message_app1));
+        addClickListner((Button) rootView.findViewById(R.id.button_app2), getString(R.string.message_app2));
+        addClickListner((Button) rootView.findViewById(R.id.button_app3), getString(R.string.message_app3));
+        addClickListner((Button) rootView.findViewById(R.id.button_app4), getString(R.string.message_app4));
+        addClickListner((Button) rootView.findViewById(R.id.button_app5), getString(R.string.message_app5));
+        addClickListner((Button) rootView.findViewById(R.id.button_myapp), getString(R.string.message_myapp));
 
         return rootView;
     }

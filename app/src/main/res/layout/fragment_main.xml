@@ -11,7 +11,7 @@
 
         <TextView
             android:id="@+id/title"
-            style="@style/Title"
+            style="@style/AppTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -20,8 +20,8 @@
             android:text="@string/my_title" />
 
         <Button
-            android:id="@+id/button"
-            style="@style/ButtonType1"
+            android:id="@+id/button_app1"
+            style="@style/ButtonPracticeApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_below="@+id/title"
@@ -31,51 +31,51 @@
             android:text="@string/media_streamer" />
 
         <Button
-            android:id="@+id/button1"
-            style="@style/ButtonType1"
+            android:id="@+id/button_app2"
+            style="@style/ButtonPracticeApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button"
+            android:layout_below="@+id/button_app1"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:text="@string/super_duo1" />
 
         <Button
-            android:id="@+id/button2"
-            style="@style/ButtonType1"
+            android:id="@+id/button_app3"
+            style="@style/ButtonPracticeApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button1"
+            android:layout_below="@+id/button_app2"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:text="@string/super_duo2" />
 
         <Button
-            android:id="@+id/button3"
-            style="@style/ButtonType1"
+            android:id="@+id/button_app4"
+            style="@style/ButtonPracticeApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button2"
+            android:layout_below="@+id/button_app3"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:text="@string/ant_terminator" />
 
         <Button
-            android:id="@+id/button4"
-            style="@style/ButtonType1"
+            android:id="@+id/button_app5"
+            style="@style/ButtonPracticeApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button3"
+            android:layout_below="@+id/button_app4"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:text="@string/materialize" />
 
         <Button
-            android:id="@+id/button5"
-            style="@style/ButtonType2"
+            android:id="@+id/button_myapp"
+            style="@style/ButtonMyApp"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button4"
+            android:layout_below="@+id/button_app5"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:text="@string/capstone" />
